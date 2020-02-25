@@ -1,0 +1,139 @@
+.sign-box-wrapper{
+  background: #e5eeee;
+  padding-top: 50px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.sign-box{
+  width: 400px;
+  height: 496px;
+  margin: 0 auto;
+  background-image: linear-gradient( 58deg, rgb(48,35,174) 0%, rgb(124,72,195) 53%, rgb(200,109,215) 100%);
+  font-family: 'Quicksand';
+  font-weight: 700;
+  color: #fbf6e4;
+}
+
+.sign-box__bg-layer{
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 496px;
+  position: relative;
+}
+
+.sign-box__sign-card{
+  padding: 50px 70px;
+  visibility: hidden;
+}
+
+.sign-box__sign-join-bar{
+  margin-bottom: 50px;
+}
+
+.sign-box__switchers{
+  display: flex;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.sign-box__switcher{
+  font-size: 18px;
+  list-style-type: none;
+  margin-right: 25px;
+}
+
+.switch-link{
+  color: #fbf6e4;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.switch-link:hover, .switch-link:focus{
+  opacity: 1;
+  border-bottom: 2px #e66a64 solid;
+  outline: none;
+}
+
+.form__section{
+  display: flex;
+  flex-direction: column;
+}
+.form__label{
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.form__input{
+  width: 260px;
+  height: 40px;
+  border: 2px #aa8ccb solid;
+  background-color: rgba(0,0,0,0);
+  box-sizing: border-box;
+  margin-bottom: -2px;
+  font-family: 'Quicksand';
+  font-weight: 700;
+  color: #fbf6e4;
+}
+
+.form__input:hover, .form__input:focus{
+  border: 2px #23ae92 solid;
+}
+.form__error{
+  visibility: hidden;
+}
+
+.form__section--checkbox{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.form__label--checkbox{
+  font-size: 13px;
+}
+
+.btn{
+  width: 260px;
+  height: 40px;
+  border: 2px #23ae92 solid;
+  background: #23ae92;
+  color: #fbf6e4;
+  font-family: 'Quicksand';
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.btn:hover, .btn:focus{
+  border: 2px #23ae92 solid;
+  background: #e66a64;
+}
+
+.form__options{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.form__link{
+  font-size: 13px;
+  font-weight: 400;
+  color: #b9b9cc;
+  text-decoration: none;
+  border-bottom: 1px #b9b9cc solid;
+  padding-bottom: 4px;
+  opacity: 0.7;
+}
+
+.form__link:hover, .form__link:focus{
+  color: #23ae92;
+  border-bottom: 1px#23ae92 solid;
+}
+
+.sign-box__join-card{
+  visibility: visible;
+  position: absolute;
+}
