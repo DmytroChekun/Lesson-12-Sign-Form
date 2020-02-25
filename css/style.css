@@ -1,8 +1,8 @@
 .sign-box-wrapper{
   background: #e5eeee;
   padding-top: 50px;
-  height: 100%;
-  box-sizing: border-box;
+  width: 100vw;
+  height: 93vh;
 }
 
 .sign-box{
@@ -26,11 +26,12 @@
 
 .sign-box__sign-card{
   padding: 50px 70px;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .sign-box__sign-join-bar{
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 70px;
 }
 
 .sign-box__switchers{
@@ -76,15 +77,25 @@
   font-family: 'Quicksand';
   font-weight: 700;
   color: #fbf6e4;
+  padding-left: 5px;
+}
+.form__input::-webkit-input-placeholder{
+  color: #fbf6e4;
 }
 
 .form__input:hover, .form__input:focus{
   border: 2px #23ae92 solid;
 }
+
 .form__error{
   visibility: hidden;
+  font-size: 10px;
+  color: rgb(180, 91, 91);
 }
 
+.form__input::invalid>.form__error{
+  visibility: visible;
+}
 .form__section--checkbox{
   display: flex;
   flex-direction: row;
@@ -134,6 +145,12 @@
 }
 
 .sign-box__join-card{
-  visibility: visible;
+  visibility: hidden;
   position: absolute;
+  top: 110px;
+  left: 70px;
+  right: auto;
 }
+
+/* Control sliders*/
+
